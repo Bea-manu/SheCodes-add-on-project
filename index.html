@@ -9,8 +9,23 @@
         <title>Ai generator</title>
     </head>
     <body>
+        <div class = "container">
         <header>
-        <div id="root"></div>
+        <h1>Ai Recipe generator</h1>
+        </header>
+        <main>
+            <form id="search-form">
+                <input type="text" placeholder="Type your recipe" 
+                id="search-input"
+                autofocus
+                required
+                autocomplete="off"
+                class="instructions" />
+                <button type="submit">Generate</button>
+            </form>
+            <div id="search-results"></div>
+        </main>
+        </div>
     </body>
     <script src="src/index.js"></script>
 </html>
